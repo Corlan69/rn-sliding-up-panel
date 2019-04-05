@@ -12,6 +12,7 @@ interface Props {
   onDragEnd?: (value: number, gestureState: PanResponderGestureState) => void;
   allowDragging?: boolean;
   allowMomentum?: boolean;
+  showBackdrop?:boolean;
   backdropOpacity?: number;
   friction?: number;
   children:
